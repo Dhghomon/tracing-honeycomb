@@ -15,7 +15,7 @@ const MILLIS_PER_SECOND: f64 = 1000_f64;
 pub struct HoneycombVisitor(pub(crate) HashMap<String, Value>);
 
 // reserved field names (TODO: document)
-static RESERVED_WORDS: [&str; 9] = [
+static RESERVED_WORDS: [&str; 8] = [
     "trace.span_id",
     "trace.trace_id",
     "service_name",
