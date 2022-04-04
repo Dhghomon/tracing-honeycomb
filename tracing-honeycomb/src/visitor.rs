@@ -18,7 +18,6 @@ pub struct HoneycombVisitor(pub(crate) HashMap<String, Value>);
 static RESERVED_WORDS: [&str; 9] = [
     "trace.span_id",
     "trace.trace_id",
-    "trace.parent_id",
     "service_name",
     "level",
     "Timestamp",
